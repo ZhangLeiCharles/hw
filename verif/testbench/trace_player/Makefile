@@ -221,6 +221,7 @@ VCS_ARGS    := ${COMMON_DIRS} \
                -timescale=1ns/1ns \
                -assert enable_diag \
                -line \
+			   +vcs+lic+wait \
                -cc ${GCC} -cpp ${CXX} -ld ${CXX} -Xcombo=0x11 \
                -full64 \
                +v2k \

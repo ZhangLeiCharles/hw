@@ -111,6 +111,7 @@ VCS_ARGS    := ${COMMON_DIRS} \
                -ntb_opts uvm-1.2 \
                -timescale=1ns/1ns \
                -assert enable_diag \
+			   +vcs+lic+wait \
                -line \
                -full64 \
                +v2k \
