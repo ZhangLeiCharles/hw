@@ -217,11 +217,11 @@ VCS_OK_WARNINGS     := +warn=noTFIPC +warn=noTMR
 
 VCS_ARGS    := ${COMMON_DIRS} \
                -sverilog \
+			   -LDFLAGS -Wl,--no-as-needed \
                -ntb_opts uvm-1.2 \
                -timescale=1ns/1ns \
                -assert enable_diag \
                -line \
-			   +vcs+lic+wait \
                -cc ${GCC} -cpp ${CXX} -ld ${CXX} -Xcombo=0x11 \
                -full64 \
                +v2k \
