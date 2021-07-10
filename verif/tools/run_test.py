@@ -294,7 +294,7 @@ class RunTest(object):
         cmd_fh.write("export VERDI_HOME=%s\n\n" % os.environ['VERDI_HOME'])
         cmd_fh.write("export NOVAS_HOME=%s\n\n" % os.environ['NOVAS_HOME'])
         cmd_fh.write("export LD_LIBRARY_PATH=%s\n\n" % os.environ['LD_LIBRARY_PATH'])
-        cmd_fh.write("export PATH=%s\n\n" % os.environ['PATH'])
+        # cmd_fh.write("export PATH=%s\n\n" % os.environ['PATH'])
         cmd_fh.write(simv_cmd+'\n')
         cmd_fh.close()
         subprocess.call('chmod 755 '+script, shell=True)
