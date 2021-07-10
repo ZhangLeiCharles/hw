@@ -189,7 +189,7 @@ class LSFMonitor(object):
 
     def time_sleep(self, interval):
         for val in range(interval,-1,-1):
-            print(f'{colorama.Style.RESET_ALL}[LSF] Will update jobs status after {colorama.Fore.RED}%0d{colorama.Style.RESET_ALL} seconds later ...' % val, end='\r')
+            print('{colorama.Style.RESET_ALL}[LSF] Will update jobs status after {colorama.Fore.RED}%0d{colorama.Style.RESET_ALL} seconds later ...' % val, end='\r')
             time.sleep(1)
 
     def no_running_jobs(self, job_status={}):

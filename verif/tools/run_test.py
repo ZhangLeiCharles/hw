@@ -277,6 +277,7 @@ class RunTest(object):
             simv_args += ' +uvm_set_config_int=*,auto_dump_surface,1'
         if self._config_dict['nvdla_utb_work_mode'] is not None:
             simv_args += ' +WORK_MODE=' + self._config_dict['nvdla_utb_work_mode'].upper()
+        simv_args += ' +vcs+lic+wait'
         simv_args += ' +UVM_MAX_QUIT_COUNT=1'
         simv_args += ' +uvm_set_action=*,UVM/COMP/NAME,UVM_WARNING,UVM_NO_ACTION'
         simv_args += ' +uvm_set_action=*,UVM/RSRC/NOREGEX,UVM_WARNING,UVM_NO_ACTION'

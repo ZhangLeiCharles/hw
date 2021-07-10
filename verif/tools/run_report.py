@@ -287,7 +287,7 @@ class RunReport(object):
 
     def __time_sleep(self, interval):
         for val in range(interval,-1,-1):
-            print(f'[INFO] Will update regression status after {colorama.Fore.RED}%0d{colorama.Style.RESET_ALL} seconds later ...' % val, end='\r')
+            print('[INFO] Will update regression status after {colorama.Fore.RED}%0d{colorama.Style.RESET_ALL} seconds later ...' % val, end='\r')
             time.sleep(1)
 
     def __is_monitor_timeout(self):
