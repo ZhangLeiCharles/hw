@@ -1,7 +1,7 @@
 override DEPTH = ../../../..
 -include ${DEPTH}/tree.make
 -include ${DEPTH}/tools/make/common.make
-override SYSTEMC_INC_DIR   = $(VCS_HOME)/include/systemc23
+override SYSTEMC_INC_DIR   = $(VCS_HOME)/include/systemc231
 override SYSTEMC_LIB_DIR   = $(VCS_HOME)/linux64/lib
 override SYSTEMC_LIBRARIES = libsystemc23-gcc472-64.a
 include ../../../../cmod/Makefile

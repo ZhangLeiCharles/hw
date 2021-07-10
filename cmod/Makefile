@@ -17,7 +17,7 @@ PREFIX ?=$(BUILD_DIR)/release
 
 SYSTEMC_INC_DIR ?= $(SYSTEMC)/include
 SYSTEMC_LIB_DIR ?= $(SYSTEMC)/lib-linux64
-SYSTEMC_LIBRARIES ?= libsystemc-2.3.0.so
+SYSTEMC_LIBRARIES ?= libsystemc-2.3.1.so
 
 SRCS := \
 	$(SRC_DIR)/nvdla_payload/dla_b_transport_payload.cpp \
