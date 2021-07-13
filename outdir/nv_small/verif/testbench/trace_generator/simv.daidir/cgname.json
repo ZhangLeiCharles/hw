@@ -1,0 +1,104 @@
+{
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "$dummyOvSvModule": [
+        "0x24dummyOvSvModule",
+        "QAfa9",
+        "module",
+        2
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        3
+    ],
+    "_vcs_unit__2328712441": [
+        "_vcs_unit__2328712441",
+        "UJbge",
+        "module",
+        4
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        5
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        6
+    ],
+    "mem_man_pkg": [
+        "mem_man_pkg",
+        "svLpx",
+        "module",
+        7
+    ],
+    "surface_generator_pkg": [
+        "surface_generator_pkg",
+        "JL0AA",
+        "module",
+        8
+    ],
+    "ordt_uvm_reg_pkg": [
+        "ordt_uvm_reg_pkg",
+        "L5Fv3",
+        "module",
+        9
+    ],
+    "nvdla_ral_pkg": [
+        "nvdla_ral_pkg",
+        "vNgGy",
+        "module",
+        10
+    ],
+    "csb_interface": [
+        "csb_interface",
+        "BiPSj",
+        "module",
+        11
+    ],
+    "csb_pkg": [
+        "csb_pkg",
+        "T2Tj4",
+        "module",
+        12
+    ],
+    "nvdla_coverage_pkg": [
+        "nvdla_coverage_pkg",
+        "hr2J7",
+        "module",
+        13
+    ],
+    "nvdla_resource_pkg": [
+        "nvdla_resource_pkg",
+        "LLLRf",
+        "module",
+        14
+    ],
+    "nvdla_scenario_pkg": [
+        "nvdla_scenario_pkg",
+        "jwQbS",
+        "module",
+        15
+    ],
+    "nvdla_tg_top": [
+        "nvdla_tg_top",
+        "VEbNQ",
+        "module",
+        16
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        17
+    ]
+}
