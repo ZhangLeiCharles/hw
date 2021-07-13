@@ -130,6 +130,20 @@ wire         slcg_cell_en;
 wire   [6:0] slcg_op_en;
 wire         wait_for_op_en;
 
+// debug print 
+`ifndef SYNTHESIS
+`ifdef CACC2SDP_DEBUG_PRINT
+integer data_file;
+initial begin
+    data_file = $fopen("cacc2sdp_data_rtl.dat");
+    forever @(posedge nvdla_core_clk) begin
+        if(cacc2sdp_valid) begin 
+            $fwrite(data_file,"%h\n",cacc2sdp_pd);
+        end
+    end
+end
+`endif
+`endif // SYNTHESIS
 
 //==========================================================
 // Regfile

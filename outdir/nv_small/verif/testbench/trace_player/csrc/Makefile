@@ -78,7 +78,7 @@ LD_PARTIAL_LOADER=ld
 # Partial linking
 LD_PARTIAL=$(LD_PARTIAL_LOADER) -r -o
 ASFLAGS=
-LIBS=-lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a -lsysctli -lbfSim -lbfCbug -lsystemc231-gcc4-64 
+LIBS=-lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a -lsysctli -lbfSim -lbfCbug -lsystemc231-gcc4-64 
 # Note: if make gives you errors about include, either get gmake, or
 # replace the following line with the contents of the file filelist,
 # EACH TIME IT CHANGES

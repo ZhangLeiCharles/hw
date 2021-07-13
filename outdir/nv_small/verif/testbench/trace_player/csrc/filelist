@@ -1,7 +1,7 @@
 
 
 AR=ar
-DOTLIBS=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvirsim.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/liberrorinf.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libsnpsmalloc.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvfs.so /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a 
+DOTLIBS=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvirsim.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/liberrorinf.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libsnpsmalloc.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvfs.so /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a 
 
 uvm_dpi.o : uvm_dpi.d /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2/dpi/uvm_dpi.cc
 	/usr/bin/g++ $(CFLAGS) -c /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2/dpi/uvm_dpi.cc

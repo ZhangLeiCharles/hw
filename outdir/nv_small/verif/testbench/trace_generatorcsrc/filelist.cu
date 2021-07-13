@@ -1,16 +1,16 @@
 PIC_LD=ld
 
 ARCHIVE_OBJS=
-ARCHIVE_OBJS += _17402_archive_1.so
-_17402_archive_1.so : archive.7/_17402_archive_1.a
+ARCHIVE_OBJS += _30548_archive_1.so
+_30548_archive_1.so : archive.8/_30548_archive_1.a
 	@$(AR) -s $<
-	@$(PIC_LD) -shared  -Bsymbolic  -o .//../trace_generator/simv.daidir//_17402_archive_1.so --whole-archive $< --no-whole-archive
+	@$(PIC_LD) -shared  -Bsymbolic  -o .//../trace_generator/simv.daidir//_30548_archive_1.so --whole-archive $< --no-whole-archive
 	@rm -f $@
-	@ln -sf .//../trace_generator/simv.daidir//_17402_archive_1.so $@
+	@ln -sf .//../trace_generator/simv.daidir//_30548_archive_1.so $@
 
 
 ARCHIVE_OBJS += _prev_archive_1.so
-_prev_archive_1.so : archive.7/_prev_archive_1.a
+_prev_archive_1.so : archive.8/_prev_archive_1.a
 	@$(AR) -s $<
 	@$(PIC_LD) -shared  -Bsymbolic  -o .//../trace_generator/simv.daidir//_prev_archive_1.so --whole-archive $< --no-whole-archive
 	@rm -f $@

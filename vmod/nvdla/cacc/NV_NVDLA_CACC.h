@@ -38,3 +38,5 @@
     
 #define CACC_DBUF_DEPTH                                 CACC_ABUF_DEPTH
 #define CACC_DBUF_AWIDTH                                CACC_ABUF_AWIDTH    //address width
+
+`define CACC2SDP_DEBUG_PRINT

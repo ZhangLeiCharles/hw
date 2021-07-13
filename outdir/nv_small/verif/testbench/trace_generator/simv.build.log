@@ -6,8 +6,8 @@ Command: vcs +incdir+/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual 
 +incdir+/home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man +incdir+/home/ubuntu1604/nvdla_proj/hw/verif/vip/surface_generator \
 +incdir+/home/ubuntu1604/nvdla_proj/hw/verif/vip/csb_agent -sverilog -ntb_opts uvm-1.2 \
 -timescale=1ns/1ns -assert enable_diag -LDFLAGS -Wl,--no-as-needed -line -full64 \
-+v2k +libext+.vlib+.v+.sv+.svh +warn=noTFIPC +warn=noTMR /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a \
-+vcsd -P /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/novas.tab \
++v2k +libext+.vlib+.v+.sv+.svh +warn=noTFIPC +warn=noTMR /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a \
++vcsd -P /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/novas.tab \
 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/defs/project.vh /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/testbench/trace_generator/env/fp_func_dpi.cpp \
 /home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man/mem_man_pkg.sv /home/ubuntu1604/nvdla_proj/hw/verif/vip/surface_generator/surface_generator_pkg.sv \
 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual/ordt_uvm_reg_pkg.sv /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/ral/nvdla_ral_pkg.sv \
@@ -22,7 +22,7 @@ Command: vcs +incdir+/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual 
 -l ../../../outdir/nv_small/verif/testbench/trace_generator/simv.build.log -o ../../../outdir/nv_small/verif/testbench/trace_generator/simv \
 -Mdir=../../../outdir/nv_small/verif/testbench/trace_generatorcsrc
                          Chronologic VCS (TM)
-     Version P-2019.06-SP2-12_Full64 -- Sat Jul 10 12:05:09 2021
+     Version P-2019.06-SP2-12_Full64 -- Tue Jul 13 11:43:02 2021
                Copyright (c) 1991-2019 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -717,9 +717,9 @@ g++  -o /home/ubuntu1604/nvdla_proj/hw/verif/testbench/trace_generator/../../../
 -Wl,-rpath=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib \
 -L/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib  -Wl,-rpath-link=./ \
 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vpdlogstub.o \
-fp_func_dpi.o uvm_dpi.o     _17402_archive_1.so _prev_archive_1.so _csrc0.so  SIM_l.o \
+fp_func_dpi.o uvm_dpi.o     _30548_archive_1.so _prev_archive_1.so _csrc0.so  SIM_l.o \
 _csrc0.so    rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
--lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a \
 -lvcsnew -lsimprofile -luclinative /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vcs_tls.o \
 -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../trace_generator/simv.daidir/vc_hdrs.o \
 _vcs_pli_stub_.o   /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vcs_save_restore_new.o \
@@ -728,4 +728,4 @@ _vcs_pli_stub_.o   /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-1
 up to date
 make[1]: Leaving directory '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/testbench/trace_generatorcsrc' \
 
-CPU time: 24.720 seconds to compile + 1.719 seconds to elab + 3.078 seconds to link
+CPU time: 25.797 seconds to compile + 1.923 seconds to elab + 2.843 seconds to link

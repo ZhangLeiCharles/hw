@@ -1100,7 +1100,7 @@
 -Mdir=../../../outdir/nv_small/verif/testbench/trace_generatorcsrc
 -Mexternalobj=
 -Mldflags= -Wl,--no-as-needed -rdynamic
--Mobjects=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vpdlogstub.o /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvirsim.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/liberrorinf.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libsnpsmalloc.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvfs.so /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a
+-Mobjects=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vpdlogstub.o /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvirsim.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/liberrorinf.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libsnpsmalloc.so /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvfs.so /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a
 -Mout=../../../outdir/nv_small/verif/testbench/trace_generator/simv
 -Msaverestoreobj=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vcs_save_restore_new.o
 -Msyslibs=-ldl -lm
@@ -1123,7 +1123,7 @@
 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2/uvm_pkg.sv
 uvm-1.2
 enable_diag
-/home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/novas.tab
+/home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/novas.tab
 ../../../outdir/nv_small/verif/testbench/trace_generator/simv
 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/defs/project.vh
 /home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man/mem_man_pkg.sv
@@ -1140,14 +1140,14 @@ enable_diag
 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/testbench/trace_generator/env/nvdla_tg_top.sv
 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/tests/uvm_tests/nvdla_test_suite.sv
 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vcsdstub.tab
-41
+42
 XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
-VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-e5043dc6-8501-432c-bd75-7e611d0a81de.sock
+VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-da229e26-09b5-4257-bdfe-cabedb2bb64e.sock
 VSCODE_GIT_IPC_HANDLE=/tmp/vscode-git-ac4292d136.sock
 VSCODE_GIT_ASKPASS_NODE=/home/ubuntu1604/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node
 VSCODE_GIT_ASKPASS_MAIN=/home/ubuntu1604/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/git/dist/askpass-main.js
 VMR_MODE_FLAG=64
-VERDI_HOME=/home/ubuntu1604/synopsys/verdi_2016.06-1
+VERDI_HOME=/home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12
 VCS_UVM_HOME=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2
 VCS_MX_HOME_INTERNAL=1
 VCS_MODE_FLAG=64
@@ -1161,8 +1161,8 @@ UNAME=/bin/uname
 TOOL_HOME=/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64
 TERM_PROGRAM_VERSION=1.57.1
 TERM_PROGRAM=vscode
-SSH_CONNECTION=10.22.34.29 50271 172.21.144.202 2222
-SSH_CLIENT=10.22.34.29 50271 2222
+SSH_CONNECTION=10.22.33.142 49992 172.21.144.202 2222
+SSH_CLIENT=10.22.33.142 49992 2222
 SCRNAME=vcs
 SCRIPT_NAME=vcs
 PROJECT=nv_small
@@ -1171,7 +1171,7 @@ PERL_MB_OPT=--install_base "/home/ubuntu1604/perl5"
 PERL_LOCAL_LIB_ROOT=/home/ubuntu1604/perl5:/home/ubuntu1604/perl5
 PERL5LIB=/home/ubuntu1604/perl5/lib/perl5:/home/ubuntu1604/perl5/lib/perl5
 OVA_UUM=0
-NOVAS_HOME=/home/ubuntu1604/synopsys/verdi_2016.06-1
+NOVAS_HOME=/home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12
 MFLAGS=
 MAKEOVERRIDES=${-*-command-variables-*-}
 MAKELEVEL=1
@@ -1181,6 +1181,7 @@ LESSOPEN=| /usr/bin/lesspipe %s
 LESSCLOSE=/usr/bin/lesspipe %s %s
 LC_ALL=C
 GIT_ASKPASS=/home/ubuntu1604/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/git/dist/askpass.sh
+DVE_HOME=/home/ubuntu1604/synopsys/vcs_2016.06/gui/dve/bin
 COLORTERM=truecolor
 0
 251
@@ -1270,7 +1271,7 @@ COLORTERM=truecolor
 1625748743 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/csb_agent/csb_defines.svh
 1625748744 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/csb_agent/csb_interface.sv
 1625748746 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/ral/nvdla_ral.sv
-1625889874 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual/opendla_reg.sv
+1626147748 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual/opendla_reg.sv
 1625627856 /home/ubuntu1604/nvdla_proj/hw/verif/vip/surface_generator/surface_generator.sv
 1625627855 /home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man/mem_man.svh
 1625627855 /home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man/mem_domain.svh
@@ -1428,13 +1429,13 @@ COLORTERM=truecolor
 1625748742 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/coverage/nvdla_coverage_pkg.sv
 1625748745 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/csb_agent/csb_pkg.sv
 1625748746 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/ral/nvdla_ral_pkg.sv
-1625889872 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual/ordt_uvm_reg_pkg.sv
+1626147746 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/manual/ordt_uvm_reg_pkg.sv
 1625627856 /home/ubuntu1604/nvdla_proj/hw/verif/vip/surface_generator/surface_generator_pkg.sv
 1625627855 /home/ubuntu1604/nvdla_proj/hw/verif/vip/mem_man/mem_man_pkg.sv
-1625889841 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/defs/project.vh
+1626147716 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/spec/defs/project.vh
 1615867615 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2/uvm_pkg.sv
 1615871753 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/vcsdstub.tab
-1468145700 /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/novas.tab
+1615804056 /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/novas.tab
 8
 1625748716 /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/testbench/trace_generator/env/fp_func_dpi.cpp
 1615867614 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/etc/uvm-1.2/dpi/uvm_dpi.cc
@@ -1443,6 +1444,6 @@ COLORTERM=truecolor
 1615872523 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/liberrorinf.so
 1615872470 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libsnpsmalloc.so
 1615872519 /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/linux64/lib/libvfs.so
-1468144468 /home/ubuntu1604/synopsys/verdi_2016.06-1/share/PLI/VCS/LINUX64/pli.a
-1625889941 ../../../outdir/nv_small/verif/testbench/trace_generator/simv.daidir
+1615802196 /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12/share/PLI/VCS/LINUX64/pli.a
+1626147815 ../../../outdir/nv_small/verif/testbench/trace_generator/simv.daidir
 -1 partitionlib

@@ -17,7 +17,7 @@ PROJECTS := nv_small
 ##======================= 										  
   																  
 USE_DESIGNWARE  := 0
-DESIGNWARE_DIR  := /home/ubuntu1604/synopsys/vcs_2016.06
+DESIGNWARE_DIR  := /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12
 CPP  := /usr/bin/cpp
 GCC  := /usr/bin/gcc
 CXX  := /usr/bin/g++
@@ -26,7 +26,7 @@ JAVA := /usr/bin/java
 SYSTEMC := /usr/local/systemc-2.3.1
 PYTHON := /usr/bin/python3
 VCS_HOME := /home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12
-NOVAS_HOME := /home/ubuntu1604/synopsys/verdi_2016.06-1
-VERDI_HOME := /home/ubuntu1604/synopsys/verdi_2016.06-1
+NOVAS_HOME := /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12
+VERDI_HOME := /home/ubuntu1604/synopsys/verdi_P-2019.06-SP2-12/verdi/P-2019.06-SP2-12
 VERILATOR := verilator
 CLANG := /home/utils/llvm-4.0.1/bin/clang

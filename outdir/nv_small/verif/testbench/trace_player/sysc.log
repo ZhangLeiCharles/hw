@@ -284,3 +284,137 @@ Warning-[SC-DEPR-COMPILER] Deprecated compiler version
 Analyzing the interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
 Interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
 gmake[2]: Nothing to be done for 'all'.
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -l sysc.log -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+Compiling /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+Analyzing the interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+Compiling /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc23 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+
+Warning-[SC-SYSCAN-IDIR] Ignoring nonexistent include dir
+  Ignoring nonexistent include dir 
+  '/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc23'.
+  Make sure the directory specified with the '-I <dir>' option is available 
+  and readable.
+
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc23 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+## syscan command line arguments:  -sysc=231 -V -work DEFAULT -full64 -cc /usr/bin/gcc -cpp /usr/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=231 -V -work 'DEFAULT' -full64 -cc '/usr/bin/gcc' -cpp '/usr/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/ubuntu1604/nvdla_proj/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/home/ubuntu1604/synopsys/vcs_2019.06-SP2/vcs/P-2019.06-SP2-12/include/systemc231 -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/usr/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/usr/bin/g++' C++-compiler for C++ compilation.
+
+
+Warning-[SC-DEPR-COMPILER] Deprecated compiler version
+  Support for gcc version '4.8.3' has been deprecated and will be removed in a
+  future release.
+  Use gcc version '6.2.0' instead.
+
+Analyzing the interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/ubuntu1604/nvdla_proj/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Nothing to be done for 'all'.

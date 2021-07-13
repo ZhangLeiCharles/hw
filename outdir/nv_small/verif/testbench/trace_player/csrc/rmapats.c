@@ -562,7 +562,7 @@ void  hs_0_M_169_2__simv_daidir (UB  * pcode)
     hs_0_M_169_21__simv_daidir(pcode, val);
     fScalarIsReleased = 0;
 }
-void  hs_0_M_217_0__simv_daidir (UB  * pcode, vec32  * I1020, U  I927)
+void  hs_0_M_218_0__simv_daidir (UB  * pcode, vec32  * I1020, U  I927)
 {
     UB  * I1635;
     typedef
@@ -629,7 +629,7 @@ void  hs_0_M_217_0__simv_daidir (UB  * pcode, vec32  * I1020, U  I927)
         }
     }
 }
-void  hs_0_M_217_9__simv_daidir (UB  * pcode, vec32  * I1020)
+void  hs_0_M_218_9__simv_daidir (UB  * pcode, vec32  * I1020)
 {
     U  I927;
     I927 = *(U  *)((pcode + 0) - sizeof(RP ));
