@@ -93,14 +93,18 @@ wire [CMAC_SLCG_NUM-1:0] slcg_op_en;
 // debug print
 `ifndef SYNTHESIS
 `ifdef MAC2ACCU_DEBUG_PRINT
-integer data_file, data_file1;
+integer data_file, data_file1, data_file2, data_file3;
 initial begin
-    data_file = $fopen("mac2accu_pd_rtl.dat")    
-    data_file1 = $fopen("mac2accu_mask_rtl.dat");;
+    data_file = $fopen("mac2accu_pd_rtl.dat");    
+    data_file1 = $fopen("mac2accu_mask_rtl.dat");
+    data_file2 = $fopen("sc2mac_dat_data0_rtl.dat");
+    data_file3 = $fopen("sc2mac_wt_data0_rtl.dat");
     forever @(posedge nvdla_core_clk) begin
         if(mac2accu_pvld) begin
             $fwrite(data_file,"%h\n",mac2accu_pd);
             $fwrite(data_file1,"%h\n",mac2accu_mask);
+            $fwrite(data_file2,"%h\n",sc2mac_dat_data0);
+            $fwrite(data_file3,"%h\n",sc2mac_wt_data0);
         end
     end
 end

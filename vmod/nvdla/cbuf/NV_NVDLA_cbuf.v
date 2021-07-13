@@ -99,6 +99,20 @@ initial begin
         end
     end
 end
+// debug the output read from ram
+integer data_file1, wt_file1;
+initial begin
+    data_file1 = $fopen("sc2buf_wt_rd_data_rtl.dat");
+    wt_file1 = $fopen("sc2buf_dat_rd_data_rtl.dat");
+    forever @(posedge nvdla_core_clk) begin
+        if(sc2buf_wt_rd_valid) begin
+            $fwrite(data_file1,"%h\n",sc2buf_wt_rd_data);
+        end
+        if (sc2buf_dat_rd_valid) begin
+            $fwrite(wt_file1,"%h\n",sc2buf_dat_rd_data);
+        end
+    end
+end
 `endif
 `endif
 `endif // SYNTHESIS
