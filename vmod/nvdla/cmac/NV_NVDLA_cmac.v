@@ -9,7 +9,7 @@
 // File Name: NV_NVDLA_cmac.v
 
 #include "NV_NVDLA_CMAC.h"
-
+`define MAC2ACCU_DEBUG_PRINT
 module NV_NVDLA_cmac (
    csb2cmac_a_req_pd             //|< i
   ,csb2cmac_a_req_pvld           //|< i
@@ -90,6 +90,22 @@ wire  [0:0] reg2dp_conv_mode;
 wire  [0:0] reg2dp_op_en;
 wire  [1:0] reg2dp_proc_precision=2'b0;
 wire [CMAC_SLCG_NUM-1:0] slcg_op_en;
+// debug print
+`ifndef SYNTHESIS
+`ifdef MAC2ACCU_DEBUG_PRINT
+integer data_file, data_file1;
+initial begin
+    data_file = $fopen("mac2accu_pd_rtl.dat")    
+    data_file1 = $fopen("mac2accu_mask_rtl.dat");;
+    forever @(posedge nvdla_core_clk) begin
+        if(mac2accu_pvld) begin
+            $fwrite(data_file,"%h\n",mac2accu_pd);
+            $fwrite(data_file1,"%h\n",mac2accu_mask);
+        end
+    end
+end
+`endif
+`endif // SYNTHESIS
 //==========================================================
 // core
 //==========================================================
